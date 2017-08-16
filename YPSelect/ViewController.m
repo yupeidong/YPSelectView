@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YPSelect.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    YPSelect * yp = [[YPSelect alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:yp];
+    
+    yp.bloock = ^(BOOL select) {
+      
+        if (select == YES)
+            NSLog(@"选中了啊");
+        else
+            NSLog(@"没有被选中啊");
+        
+        
+    };
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+
+
 
 
 - (void)didReceiveMemoryWarning {

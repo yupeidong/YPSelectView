@@ -15,6 +15,9 @@
 		24C522FF1F43D1A1006841BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C522FD1F43D1A1006841BC /* LaunchScreen.storyboard */; };
 		24C5230A1F43D1A1006841BC /* YPSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523091F43D1A1006841BC /* YPSelectTests.m */; };
 		24C523151F43D1A1006841BC /* YPSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523141F43D1A1006841BC /* YPSelectUITests.m */; };
+		24C523231F43D28E006841BC /* noSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C523221F43D28E006841BC /* noSelect.png */; };
+		24C523251F43D2BC006841BC /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C523241F43D2BC006841BC /* select.png */; };
+		24C523281F43D322006841BC /* YPSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C523271F43D322006841BC /* YPSelect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		24C523101F43D1A1006841BC /* YPSelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPSelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C523141F43D1A1006841BC /* YPSelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPSelectUITests.m; sourceTree = "<group>"; };
 		24C523161F43D1A1006841BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C523221F43D28E006841BC /* noSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noSelect.png; sourceTree = "<group>"; };
+		24C523241F43D2BC006841BC /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		24C523261F43D322006841BC /* YPSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPSelect.h; sourceTree = "<group>"; };
+		24C523271F43D322006841BC /* YPSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPSelect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +112,11 @@
 				24C522F31F43D1A1006841BC /* AppDelegate.m */,
 				24C522F51F43D1A1006841BC /* ViewController.h */,
 				24C522F61F43D1A1006841BC /* ViewController.m */,
+				24C523261F43D322006841BC /* YPSelect.h */,
+				24C523271F43D322006841BC /* YPSelect.m */,
 				24C522F81F43D1A1006841BC /* Main.storyboard */,
+				24C523221F43D28E006841BC /* noSelect.png */,
+				24C523241F43D2BC006841BC /* select.png */,
 				24C522FB1F43D1A1006841BC /* Assets.xcassets */,
 				24C522FD1F43D1A1006841BC /* LaunchScreen.storyboard */,
 				24C523001F43D1A1006841BC /* Info.plist */,
@@ -248,6 +259,8 @@
 			files = (
 				24C522FF1F43D1A1006841BC /* LaunchScreen.storyboard in Resources */,
 				24C522FC1F43D1A1006841BC /* Assets.xcassets in Resources */,
+				24C523251F43D2BC006841BC /* select.png in Resources */,
+				24C523231F43D28E006841BC /* noSelect.png in Resources */,
 				24C522FA1F43D1A1006841BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +288,7 @@
 			files = (
 				24C522F71F43D1A1006841BC /* ViewController.m in Sources */,
 				24C522F41F43D1A1006841BC /* AppDelegate.m in Sources */,
+				24C523281F43D322006841BC /* YPSelect.m in Sources */,
 				24C522F11F43D1A1006841BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +521,7 @@
 				24C5231B1F43D1A1006841BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C5231C1F43D1A1006841BC /* Build configuration list for PBXNativeTarget "YPSelectTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				24C5231E1F43D1A1006841BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C5231F1F43D1A1006841BC /* Build configuration list for PBXNativeTarget "YPSelectUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				24C523211F43D1A1006841BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
